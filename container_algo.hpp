@@ -103,7 +103,7 @@ namespace ben
 	}
 	
 	template<typename C, typename T>
-	unsigned int Count(const C & cont, T & value)
+	unsigned int Count(const C & cont, const T & value)
 	{
 		return std::count(std::begin(cont), std::end(cont), value);
 	}
